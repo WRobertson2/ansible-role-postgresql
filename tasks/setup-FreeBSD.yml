@@ -1,0 +1,10 @@
+---
+- name: Ensure PostgreSQL packages are installed.
+  pkgng:
+    name: "{{ postgresql_packages }}"
+    state: present
+
+- name: Ensure PostgreSQL Python libraries are installed.
+  pkgng:
+    name: "{{ postgresql_python_library }}"
+    state: present
