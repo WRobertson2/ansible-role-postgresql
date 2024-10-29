@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/geerlingguy/ansible-role-postgresql/actions/workflows/ci.yml/badge.svg)](https://github.com/geerlingguy/ansible-role-postgresql/actions/workflows/ci.yml)
 
-Installs and configures PostgreSQL server on RHEL/CentOS or Debian/Ubuntu servers.
+Installs and configures PostgreSQL server on FreeBSD, RHEL/CentOS, or Debian/Ubuntu servers.
 
 ## Requirements
 
