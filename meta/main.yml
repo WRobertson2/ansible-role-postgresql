@@ -17,6 +17,10 @@ galaxy_info:
         - 38
         - 39
         - 40
+        - 41
+        - 42
+        - 43
+        - 44
     - name: Ubuntu
       versions:
         - xenial
