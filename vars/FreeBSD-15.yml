@@ -1,14 +1,14 @@
 ---
 __postgresql_version: "18.4"
-__postgresql_data_dir: "/var/db/postgres/data17"
+__postgresql_data_dir: "/var/db/postgres/data18"
 __postgresql_bin_path: "/usr/local/bin"
-__postgresql_config_path: "/var/db/postgres/data17"
+__postgresql_config_path: "/var/db/postgres/data18"
 __postgresql_daemon: postgresql
 __postgresql_packages:
   - postgresql18-client
   - postgresql18-server
   - postgresql18-contrib
-__postgresql_unix_socket_directories_mode: '0755'
+__postgresql_unix_socket_directories_mode: "0755"
 postgresql_python_library: py311-psycopg2
 postgresql_unix_socket_directories:
   - /tmp

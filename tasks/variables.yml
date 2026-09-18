@@ -20,7 +20,7 @@
   when: ansible_facts.distribution == 'Fedora'
 
 - name: Include OS-specific variables (FreeBSD).
-  include_vars: "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
+  include_vars: "{{ ansible_facts.distribution }}-{{ ansible_facts.distribution_major_version }}.yml"
   when: ansible_facts.distribution == 'FreeBSD'
 
 - name: Define postgresql_packages.
